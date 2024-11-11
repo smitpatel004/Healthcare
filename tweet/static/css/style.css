@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+
+
+  .carousel-inner img {
+    height: 500px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    width: 100%; /* Ensure it spans the full width */
+  }
+  
+  header {
+    background: #739cd2;
+    padding: 1em 0;
+    color: #fff;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .appointment-btn {
+    background: #28a745;
+    color: white;
+    padding: 0.5em 1.5em;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background: url('p1.png') no-repeat center center/cover;
+    background-position-y: 1px;
+    height: 700px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the left */
+    padding-left: 5%;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1em;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .hero span {
+    color: #007bff;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px; /* Added gap between buttons */
+  }
+  
+  .cta-buttons .btn {
+    padding: 0.75em 2.5em;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .primary-btn {
+    background: #007bff;
+    color: white;
+  }
+  
+  .secondary-btn {
+    background: #6c757d;
+    color: white;
+  }
+  
+  .services {
+    display: flex;
+
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 4em 0;
+    background: #f9f9f9;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.services > div {
+    /* background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px; */
+
+    background: white;
+    padding: 2em;
+    flex: 1; 
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 30%; 
+  }
+
+  .service-box h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 1em;
+}
+
+.service-box p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(107, 138, 219, 0.58);
+}
+
+/* 
+.mental-health-tips {
+    padding: 4em 0;
+    background-color: #f4f4f4;
+    margin-bottom: 500px;
+  } */
+  
+  .tip-box {
+    margin-bottom: 500px;
+    width: 45%;
+    padding: 1em;
+    margin-bottom: 2em;
+    font-family: 'Georgia', serif; /* Use a different font */
+    font-size: 1.2rem;
+    color: #333;
+    border-left: 5px solid #007bff;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tip-box blockquote {
+    margin: 0;
+    font-style: italic;
+  }
+  
+  .left-tip {
+    float: left;
+    text-align: left;
+  }
+  
+  .right-tip {
+    float: right;
+    text-align: right;
+  }
+
+
+
+
+  footer {
+    margin-top: 300px;
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  @media (max-width: 768px) {
+    .services {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service-box {
+      width: 80%;
+      margin-bottom: 2em;
+    }
+  
+    .cta-buttons {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .hero h2 {
+      font-size: 2.25rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  }
+  

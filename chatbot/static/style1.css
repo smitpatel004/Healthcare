@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('b2.jpg');
+    background-size: cover;        /* Ensures the image covers the entire background */
+    background-position: center;   /* Centers the background image */
+    background-attachment: fixed;  /* Keeps the image fixed when scrolling */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    background-color: #417ab2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Chat Container */
+.chat-container {
+    width: 500px;
+    max-width: 90%; /* Ensures the container is responsive on smaller screens */
+    margin: 50px auto;
+    padding: 30px;
+    position: absolute;
+    left: 110px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent for better contrast with background */
+    border: 1px solid #c5d5e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.chat-title {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Chat Box */
+.chat-box {
+    height: 400px;
+    overflow-y: scroll;
+    background-color: #7097ca;
+    border: 1px solid #c5d5e6;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.chat-message {
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.user-message {
+    background-color: #e8f3ff;
+    text-align: right;
+    color: #2c3e50;
+}
+
+.bot-message {
+    background-color: #f4f7fb;
+    color: #34495e;
+}
+
+/* Input Area */
+.input-area {
+    display: flex;
+    align-items: center;
+}
+
+#user-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #c5d5e6;
+    border-radius: 8px;
+    outline: none;
+}
+
+.send-btn {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.send-btn:hover {
+    background-color: #3498db;
+}

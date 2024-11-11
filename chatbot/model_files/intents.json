@@ -1,0 +1,588 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How are you feeling today?",
+        "Hi there! How can I help you with your mental health today?",
+        "Hey! I'm here to talk. How can I assist you?"
+      ]
+    },
+    {
+      "tag": "feeling_down",
+      "patterns": [
+        "I feel sad",
+        "I'm depressed",
+        "I'm feeling down",
+        "I'm not doing well",
+        "I'm feeling bad"
+      ],
+      "responses": [
+        "I'm really sorry you're feeling this way. Do you want to talk more about it?",
+        "I'm here for you. It's okay to feel this way sometimes. Let’s talk.",
+        "That sounds tough. Want to share more? I'm here to listen."
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "I'm anxious",
+        "I'm feeling anxious",
+        "I have anxiety",
+        "I'm stressed out",
+        "I'm overwhelmed"
+      ],
+      "responses": [
+        "It’s understandable to feel anxious sometimes. Do you want to try some calming exercises?",
+        "I hear you. Would you like some tips on managing anxiety?",
+        "Anxiety can be tough. Want to talk about what's causing it?"
+      ]
+    },
+    {
+      "tag": "loneliness",
+      "patterns": [
+        "I feel lonely",
+        "I'm alone",
+        "I have no one to talk to",
+        "I feel isolated",
+        "I'm feeling lonely"
+      ],
+      "responses": [
+        "I'm really sorry you feel lonely. I'm here to listen if you want to talk.",
+        "Loneliness can feel overwhelming, but you're not alone right now. Let's talk.",
+        "Would you like to share more about what's making you feel this way? I'm here."
+      ]
+    },
+    {
+      "tag": "self_care",
+      "patterns": [
+        "How can I take care of myself?",
+        "I need some self-care tips",
+        "How do I practice self-care?",
+        "What can I do to feel better?"
+      ],
+      "responses": [
+        "Self-care is really important! You could try taking a short walk, practicing mindfulness, or doing something you love.",
+        "How about journaling your thoughts or practicing deep breathing exercises?",
+        "You might enjoy a hobby, spending time with loved ones, or listening to your favorite music."
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "Who can I talk to?",
+        "Where can I get help?",
+        "I need professional help",
+        "I want to talk to a therapist"
+      ],
+      "responses": [
+        "It’s great that you're looking for support. Would you like resources to connect with a therapist?",
+        "I can help direct you to some professional support services. Would that be helpful?",
+        "Talking to a therapist can be really helpful. Would you like suggestions on finding one?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "Talk to you later",
+        "See you"
+      ],
+      "responses": [
+        "Goodbye! Take care of yourself.",
+        "Bye! I'm here whenever you need me.",
+        "See you soon. Stay safe and remember to take care of your mental health!"
+      ]
+    },
+    {
+      "tag": "who_are_you",
+      "patterns": [
+        "Who are you?",
+        "What is your name?",
+        "Tell me about yourself",
+        "Who am I talking to?"
+      ],
+      "responses": [
+        "I'm a chatbot here to help with mental health. You can talk to me about how you’re feeling.",
+        "I'm here to listen and offer support with whatever you're going through.",
+        "I'm an AI assistant designed to help you navigate your feelings. I'm always here for you."
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you?",
+        "How do you feel?",
+        "What's up?",
+        "How's it going?"
+      ],
+      "responses": [
+        "I'm just a bot, so I don't have feelings, but I'm here to help you feel better.",
+        "I'm doing well, thanks for asking! How about you?",
+        "I’m doing great, thanks for asking! How are you doing today?"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "What's your age?",
+        "How long have you been around?",
+        "Are you a new bot?"
+      ],
+      "responses": [
+        "I don't have an age. I'm here whenever you need me, no matter the time.",
+        "I don't age, but I'm always ready to chat and help out!",
+        "I don't have an age, but I've been designed to help you as much as I can."
+      ]
+    },
+    {
+      "tag": "motivational_quotes",
+      "patterns": [
+        "I need some motivation",
+        "Give me a quote",
+        "Can you inspire me?",
+        "I need encouragement"
+      ],
+      "responses": [
+        "Remember, 'You are stronger than you think.'",
+        "Here's a motivational quote: 'The only way to do great work is to love what you do.' - Steve Jobs",
+        "'Believe you can and you're halfway there.' - Theodore Roosevelt"
+      ]
+    },
+    {
+      "tag": "stress_relief",
+      "patterns": [
+        "How can I relieve stress?",
+        "What can I do to feel less stressed?",
+        "I need stress relief tips",
+        "I'm so stressed out"
+      ],
+      "responses": [
+        "Try some deep breathing exercises. It can help calm your mind.",
+        "How about a short meditation or taking a walk outside? It might help.",
+        "Stress is tough. Try to focus on relaxing activities like yoga or listening to music."
+      ]
+    },
+    {
+      "tag": "mental_health_tips",
+      "patterns": [
+        "What are some mental health tips?",
+        "How can I take care of my mental health?",
+        "Give me some advice for my mental health",
+        "How do I stay mentally healthy?"
+      ],
+      "responses": [
+        "Make time for things that bring you joy, whether it's a hobby or just resting.",
+        "It's important to talk about your feelings. Don’t bottle them up.",
+        "Try practicing gratitude daily or journaling to improve your mental well-being."
+      ]
+    },
+    {
+      "tag": "self_esteem",
+      "patterns": [
+        "I have low self-esteem",
+        "I don’t feel good about myself",
+        "I don’t think I’m enough",
+        "How can I feel better about myself?"
+      ],
+      "responses": [
+        "You are enough, just as you are. It’s important to acknowledge your worth.",
+        "Start with small self-care practices, like affirmations or recognizing your achievements.",
+        "It's okay to feel down sometimes, but remember you’re valuable and worthy of love."
+      ]
+    },
+    {
+      "tag": "depression_help",
+      "patterns": [
+        "I think I'm depressed",
+        "I feel hopeless",
+        "I can't shake this sadness",
+        "What should I do if I'm depressed?"
+      ],
+      "responses": [
+        "I'm really sorry you're feeling this way. It's important to talk to a professional if possible.",
+        "Depression is tough, but reaching out to a therapist or counselor could really help.",
+        "Have you considered talking to someone about how you're feeling? It might provide relief."
+      ]
+    },
+    {
+      "tag": "family_issues",
+      "patterns": [
+        "I’m having family problems",
+        "My family doesn't understand me",
+        "I have issues with my parents",
+        "I'm fighting with my family"
+      ],
+      "responses": [
+        "Family can be difficult, but it might help to communicate openly with them about how you're feeling.",
+        "It might be helpful to have an honest conversation with your family about your struggles.",
+        "Family dynamics can be tough. Sometimes, seeking family therapy or professional guidance can help."
+      ]
+    },
+    {
+      "tag": "relationship_issues",
+      "patterns": [
+        "I’m having relationship problems",
+        "My partner and I are fighting",
+        "I feel unsupported in my relationship",
+        "I don't know how to fix my relationship"
+      ],
+      "responses": [
+        "It’s important to talk openly with your partner about how you feel. Communication is key.",
+        "Have you considered couples counseling? It can help work through relationship challenges.",
+        "Sometimes, taking time for yourself can help you gain clarity and improve the relationship."
+      ]
+    },
+    {
+      "tag": "mindfulness",
+      "patterns": [
+        "What is mindfulness?",
+        "How can I practice mindfulness?",
+        "Can you guide me through mindfulness?",
+        "What are some mindfulness exercises?"
+      ],
+      "responses": [
+        "Mindfulness is the practice of staying present and fully engaging with the moment.",
+        "Try focusing on your breath for a few minutes or doing a body scan to practice mindfulness.",
+        "A simple mindfulness exercise is to notice 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, and 1 you can taste."
+      ]
+    },
+
+    {
+      "tag": "grief",
+      "patterns": [
+        "I'm grieving",
+        "I lost someone I love",
+        "I'm mourning",
+        "I feel sad after a loss",
+        "I'm struggling with grief"
+      ],
+      "responses": [
+        "I'm really sorry for your loss. Grief can be overwhelming, but you're not alone in this.",
+        "It’s okay to feel sadness when grieving. Would you like to talk about the person you lost?",
+        "Grief takes time, and it's okay to take things at your own pace. I'm here to listen if you'd like to share."
+      ]
+    },
+    {
+      "tag": "anger_management",
+      "patterns": [
+        "I'm angry",
+        "I have trouble controlling my anger",
+        "I get really mad",
+        "I'm frustrated all the time",
+        "I don't know how to calm down when I'm angry"
+      ],
+      "responses": [
+        "Anger is a natural emotion, but managing it can make a big difference. Would you like some tips?",
+        "Taking a few deep breaths and stepping away from the situation might help you feel calmer.",
+        "Anger can be challenging to handle. Would you like to talk more about what's triggering it?"
+      ]
+    },
+    {
+      "tag": "motivation_for_work",
+      "patterns": [
+        "I feel unmotivated to work",
+        "I'm struggling with work",
+        "I can't focus on my tasks",
+        "I need help getting back on track with work"
+      ],
+      "responses": [
+        "It can be tough to stay motivated sometimes. Have you tried breaking your tasks into smaller steps?",
+        "Sometimes a change in routine can help. Have you considered setting small, achievable goals?",
+        "I hear you. Finding motivation can be hard. Maybe taking short breaks throughout your day could help reset your focus."
+      ]
+    },
+    {
+      "tag": "burnout",
+      "patterns": [
+        "I'm burned out",
+        "I feel exhausted all the time",
+        "I'm overwhelmed with everything",
+        "I'm mentally and physically drained"
+      ],
+      "responses": [
+        "Burnout is real and can feel all-consuming. It's important to take a break and recharge.",
+        "Maybe it's time to set some boundaries and give yourself some rest. Would you like tips for managing burnout?",
+        "Take time for self-care and recognize your limits. Burnout can be serious, so it's okay to slow down."
+      ]
+    },
+    {
+      "tag": "decision_making",
+      "patterns": [
+        "I'm having trouble making decisions",
+        "I feel stuck in making a choice",
+        "I can't decide what to do",
+        "I keep second-guessing myself"
+      ],
+      "responses": [
+        "Making decisions can feel difficult. Would you like to talk through your options?",
+        "Try breaking down your choices and considering the pros and cons of each one.",
+        "It's okay to feel uncertain. Sometimes taking a break and coming back with a fresh mind helps."
+      ]
+    },
+    {
+      "tag": "motivation_for_fitness",
+      "patterns": [
+        "I need motivation to exercise",
+        "I'm struggling to stay fit",
+        "I feel lazy about working out",
+        "How do I get motivated to exercise?"
+      ],
+      "responses": [
+        "Start with small, easy goals, and gradually build up. The key is consistency.",
+        "Remember, exercise doesn’t have to be a long session—try quick activities like a 10-minute walk or stretch.",
+        "Find a workout you enjoy, whether it's dancing, walking, or yoga. It’s all about having fun while staying active."
+      ]
+    },
+    {
+      "tag": "positive_thinking",
+      "patterns": [
+        "How can I think more positively?",
+        "I always think negatively",
+        "I can't stop thinking bad thoughts",
+        "I need help being more optimistic"
+      ],
+      "responses": [
+        "Start by focusing on what’s going well in your life, even small things.",
+        "Try replacing negative thoughts with positive affirmations or gratitude.",
+        "Positive thinking is a habit, not a quick fix. It can help to reframe situations in a more balanced way."
+      ]
+    },
+    {
+      "tag": "self_compassion",
+      "patterns": [
+        "I'm too hard on myself",
+        "I don't show myself kindness",
+        "I need to be more gentle with myself",
+        "I don't forgive myself"
+      ],
+      "responses": [
+        "It's okay to be kind to yourself. Try speaking to yourself the way you'd speak to a friend.",
+        "Self-compassion can help with healing. Start by acknowledging your struggles and showing yourself understanding.",
+        "You deserve the same kindness and care that you give to others. It's okay to show yourself compassion."
+      ]
+    },
+    {
+      "tag": "self_improvement",
+      "patterns": [
+        "How can I improve myself?",
+        "I want to work on myself",
+        "I feel like I need to grow",
+        "What steps can I take for self-improvement?"
+      ],
+      "responses": [
+        "Self-improvement starts with small, consistent changes. Have you tried setting clear, achievable goals?",
+        "Start by reflecting on your strengths and areas for growth. Focus on one thing at a time.",
+        "Self-improvement is a lifelong journey. What’s one thing you’d like to work on first?"
+      ]
+    },
+    {
+      "tag": "coping_skills",
+      "patterns": [
+        "How can I cope better?",
+        "I need help managing my emotions",
+        "I'm struggling to cope",
+        "What are some coping strategies?"
+      ],
+      "responses": [
+        "Try grounding techniques, like deep breathing or focusing on your senses to stay present.",
+        "When things feel overwhelming, try taking a step back, identifying your feelings, and giving yourself a break.",
+        "There are many coping skills, such as mindfulness, journaling, or exercising. What has worked for you in the past?"
+      ]
+    },
+    {
+      "tag": "fear",
+      "patterns": [
+        "I'm afraid",
+        "I have fears that hold me back",
+        "I feel scared",
+        "How do I deal with fear?"
+      ],
+      "responses": [
+        "Fear is a natural feeling, but you don’t have to let it control you. Want to talk about what you're afraid of?",
+        "Facing your fears can be empowering. What small step could you take to challenge one of your fears?",
+        "It can help to break your fear down into manageable steps. What’s one way you could start to face it?"
+      ]
+    },
+
+
+
+    {
+      "tag": "mental_health_awareness",
+      "patterns": [
+        "What is mental health?",
+        "Why is mental health important?",
+        "How do I maintain good mental health?",
+        "Can mental health affect physical health?"
+      ],
+      "responses": [
+        "Mental health refers to emotional, psychological, and social well-being. It affects how we think, feel, and act.",
+        "Good mental health helps you cope with stress, relate to others, and make decisions. It's crucial for overall well-being.",
+        "Mental health is as important as physical health. Poor mental health can affect how you feel physically and vice versa.",
+        "Taking care of your mental health can improve your relationships, productivity, and overall quality of life."
+      ]
+    },
+    {
+      "tag": "dealing_with_stigma",
+      "patterns": [
+        "I’m embarrassed to talk about my mental health",
+        "What if people judge me for seeking help?",
+        "How do I deal with stigma about mental health?",
+        "I don’t want to be judged for my mental health issues"
+      ],
+      "responses": [
+        "It's natural to feel concerned about stigma, but remember, seeking help shows strength, not weakness.",
+        "Mental health struggles are common, and more people are speaking out to break the stigma. You deserve to feel heard and supported.",
+        "Talking about mental health is a step toward healing. People who care about you will understand that it's just as important as physical health.",
+        "Everyone's mental health journey is different. Don't let stigma stop you from seeking the help and support you deserve."
+      ]
+    },
+    {
+      "tag": "emotional_wellness",
+      "patterns": [
+        "What is emotional wellness?",
+        "How do I improve my emotional well-being?",
+        "How do I manage my emotions better?",
+        "What can I do for my emotional health?"
+      ],
+      "responses": [
+        "Emotional wellness means understanding, managing, and expressing your emotions in a healthy way.",
+        "Practices like mindfulness, self-reflection, and seeking social support can help improve your emotional well-being.",
+        "To manage emotions, it’s important to identify them, express them constructively, and develop healthy coping mechanisms.",
+        "Self-care, setting healthy boundaries, and learning emotional regulation can all contribute to better emotional wellness."
+      ]
+    },
+    {
+      "tag": "social_support",
+      "patterns": [
+        "Why is social support important for mental health?",
+        "How do I find support when I feel alone?",
+        "Can friends help with mental health?",
+        "How can I build a support system?"
+      ],
+      "responses": [
+        "Having a strong support system can help you feel understood and less isolated during tough times.",
+        "Friends, family, or even support groups can be valuable sources of emotional support when you’re struggling with your mental health.",
+        "Social support can offer emotional relief, advice, and encouragement, which are essential for recovery and well-being.",
+        "Consider reaching out to others you trust, joining a community, or seeking professional support to help build a network of care."
+      ]
+    },
+    {
+      "tag": "therapy_and_counseling",
+      "patterns": [
+        "What is therapy?",
+        "How can therapy help me?",
+        "What are the different types of therapy?",
+        "Should I see a therapist?"
+      ],
+      "responses": [
+        "Therapy provides a safe space for you to explore your feelings, thoughts, and behaviors with a trained professional.",
+        "Therapy can help you understand your emotions, manage stress, work through trauma, and develop coping strategies.",
+        "There are many types of therapy, including Cognitive Behavioral Therapy (CBT), psychodynamic therapy, and talk therapy.",
+        "If you’re feeling stuck or overwhelmed, talking to a therapist can provide support and strategies for managing mental health challenges."
+      ]
+    },
+    {
+      "tag": "mental_health_in_children",
+      "patterns": [
+        "How can I tell if my child has mental health issues?",
+        "What can I do to support my child’s mental health?",
+        "Are mental health issues common in children?",
+        "What are signs of mental distress in kids?"
+      ],
+      "responses": [
+        "Children can experience anxiety, depression, and other mental health challenges, just like adults. Changes in behavior, mood, or school performance may be signs.",
+        "Supporting your child's mental health involves open communication, encouraging emotional expression, and seeking professional help if needed.",
+        "Mental health issues in children are more common than you might think. It's important to address concerns early and provide a supportive environment.",
+        "Signs of mental distress in kids can include withdrawal, trouble concentrating, changes in sleep or appetite, or acting out emotionally."
+      ]
+    },
+    {
+      "tag": "coping_with_panic_attacks",
+      "patterns": [
+        "I’m having a panic attack, what should I do?",
+        "How can I manage panic attacks?",
+        "I feel like I'm about to have a panic attack, help!",
+        "What can I do during a panic attack?"
+      ],
+      "responses": [
+        "During a panic attack, try focusing on your breath. Slow, deep breaths can help calm your nervous system.",
+        "If you're feeling overwhelmed, try grounding techniques like focusing on the sensation of your feet on the ground or naming five things you can see around you.",
+        "Panic attacks are intense but temporary. Try to remind yourself that the symptoms will pass, and you’re safe.",
+        "If panic attacks are frequent, it might be helpful to talk to a therapist for coping strategies or consider relaxation techniques like mindfulness."
+      ]
+    },
+    {
+      "tag": "mental_health_and_sleep",
+      "patterns": [
+        "How does sleep affect mental health?",
+        "Can poor sleep cause mental health problems?",
+        "What can I do to sleep better?",
+        "I can't sleep and it’s affecting my mood"
+      ],
+      "responses": [
+        "Poor sleep can contribute to mental health issues like anxiety and depression. It’s important to maintain a consistent sleep routine.",
+        "Sleep is essential for emotional regulation and cognitive function. Lack of sleep can worsen mental health symptoms.",
+        "To improve sleep, try setting a relaxing bedtime routine, avoiding caffeine, and making your sleep environment comfortable.",
+        "If sleep problems persist, it might be helpful to talk to a healthcare provider to rule out sleep disorders or underlying mental health concerns."
+      ]
+    },
+    {
+      "tag": "mental_health_in_the_workplace",
+      "patterns": [
+        "How do I deal with work stress?",
+        "What are signs of burnout at work?",
+        "How can I manage my mental health at work?",
+        "Can work stress affect my mental health?"
+      ],
+      "responses": [
+        "Work stress can affect your mental health, especially if it's persistent. It's important to set boundaries and take breaks throughout the day.",
+        "Signs of burnout at work include emotional exhaustion, reduced performance, and feelings of detachment from your job.",
+        "Try to manage work-related stress by prioritizing tasks, practicing mindfulness, and maintaining a work-life balance.",
+        "If you’re struggling with mental health at work, it might be helpful to talk to a manager or HR about accommodations or support."
+      ]
+    },
+    {
+      "tag": "mental_health_and_nutrition",
+      "patterns": [
+        "How does food affect my mental health?",
+        "Can diet impact anxiety or depression?",
+        "What foods are good for mental health?",
+        "What should I eat to feel better emotionally?"
+      ],
+      "responses": [
+        "What you eat can influence your mood, energy levels, and overall mental health. A balanced diet supports brain function and emotional stability.",
+        "Eating nutrient-dense foods like fruits, vegetables, whole grains, and lean proteins can help reduce symptoms of anxiety and depression.",
+        "Omega-3 fatty acids, found in fish, and foods rich in vitamins B and D, like leafy greens and fortified foods, are great for brain health.",
+        "Staying hydrated and avoiding excess caffeine or sugar can also help maintain mental clarity and emotional balance."
+      ]
+    },
+    {
+      "tag": "relaxation_techniques",
+      "patterns": [
+        "What relaxation techniques help with stress?",
+        "How do I calm my mind?",
+        "What can I do to relax after a stressful day?",
+        "Can you guide me through a relaxation exercise?"
+      ],
+      "responses": [
+        "Relaxation techniques like deep breathing, progressive muscle relaxation, or guided imagery can be effective in reducing stress.",
+        "Try a simple breathing exercise: inhale for four counts, hold for four counts, exhale for four counts, and repeat.",
+        "Progressive muscle relaxation involves tensing and then relaxing different muscle groups, which can help relieve physical tension and stress.",
+        "Guided imagery can also be helpful—imagine a peaceful place and focus on the sights, sounds, and sensations of being there."
+      ]
+    }
+
+
+
+  ]
+}
